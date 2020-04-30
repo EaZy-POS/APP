@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AppCore.jnlp">
+  <information>
+    <title>AppCore</title>
+    <vendor>Lutfi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AppCore.jar" size="1219224" download="eager" />
+    <jar href="lib\GNAvatarView-1.0-rc.jar" size="26082" download="eager" />
+    <jar href="lib\GNButton-1.1.0.jar" size="194323" download="eager" />
+    <jar href="lib\GNCalendar-1.0-alpha.jar" size="11402" download="eager" />
+    <jar href="lib\GNCarousel-2.1.5.jar" size="530460" download="eager" />
+    <jar href="lib\GNDecorator-2.1.2-alpha.jar" size="2869249" download="eager" />
+    <jar href="lib\QS.jar" size="6144" download="eager" />
+    <jar href="lib\SystemConfig.jar" size="2986" download="eager" />
+    <jar href="lib\SystemLog.jar" size="15820" download="eager" />
+    <jar href="lib\SystemPrint.jar" size="9206" download="eager" />
+    <jar href="lib\SystemThread.jar" size="16683" download="eager" />
+    <jar href="lib\animatefx-1.2.0.jar" size="85592" download="eager" />
+    <jar href="lib\bcmail-jdk14-1.38.jar" size="192035" download="eager" />
+    <jar href="lib\bcprov-jdk14-1.38.jar" size="1551468" download="eager" />
+    <jar href="lib\bctsp-jdk14-1.38.jar" size="22994" download="eager" />
+    <jar href="lib\colors-1.4.jar" size="32122" download="eager" />
+    <jar href="lib\controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\itextpdf-5.0.6.jar" size="1613319" download="eager" />
+    <jar href="lib\jPDFNotes.jar" size="5817079" download="eager" />
+    <jar href="lib\jPDFProcess.v2019R1.06.jar" size="4805314" download="eager" />
+    <jar href="lib\javacsv-2.0.jar" size="13417" download="eager" />
+    <jar href="lib\jfoenix-8.0.7.jar" size="2631271" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\scenicView.jar" size="524264" download="eager" />
+    <jar href="lib\tilesfx-1.5.2.jar" size="1365796" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AppCore" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="appcore.AppCore"  name="AppCore" />
+  <update check="always"/>
+</jnlp>
